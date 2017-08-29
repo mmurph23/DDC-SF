@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+ <main>
+<body class="container">
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <div class="jumbotron">
+     <p>
+     <h2><%= title %></h2>
+     </p>
+        <p>
+             <h2>Loop</h2>
+                <ul>
+                    <% accounts.forEach(function(account) { %>
+                        <li><%= account.Name %> - <%= account.Id %></li>
+                    <% }); %>
+                </ul>
+        </p>
+    </div>
+</body>
+</main>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</html>
