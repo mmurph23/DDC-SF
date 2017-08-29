@@ -150,7 +150,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-body-parser@~1.17.1:
+body-parser@^1.17.2:
   version "1.17.2"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/body-parser/-/body-parser-1.17.2.tgz#f8892abc8f9e627d42aedafbca66bf5ab99104ee"
   dependencies:
@@ -322,7 +322,7 @@ content-type@~1.0.2:
   version "1.0.2"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/content-type/-/content-type-1.0.2.tgz#b7d113aee7a8dd27bd21133c4dc2529df1721eed"
 
-cookie-parser@~1.4.3:
+cookie-parser@^1.4.3:
   version "1.4.3"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/cookie-parser/-/cookie-parser-1.4.3.tgz#0fe31fa19d000b95f4aadf1f53fdc2b8a203baa5"
   dependencies:
@@ -394,9 +394,15 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.2.0, debug@~2.6.3:
+debug@2.6.8, debug@^2.2.0:
   version "2.6.8"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
+  dependencies:
+    ms "2.0.0"
+
+debug@^3.0.1:
+  version "3.0.1"
+  resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/debug/-/debug-3.0.1.tgz#0564c612b521dc92d9f2988f0549e34f9c98db64"
   dependencies:
     ms "2.0.0"
 
@@ -515,7 +521,7 @@ express-session@^1.15.5:
     uid-safe "~2.1.4"
     utils-merge "1.0.0"
 
-express@~4.15.2:
+express@^4.15.4:
   version "4.15.4"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/express/-/express-4.15.4.tgz#032e2253489cf8fce02666beca3d11ed7a2daed1"
   dependencies:
@@ -1170,7 +1176,7 @@ minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-morgan@~1.8.1:
+morgan@^1.8.2:
   version "1.8.2"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/morgan/-/morgan-1.8.2.tgz#784ac7734e4a453a9c6e6e8680a9329275c8b687"
   dependencies:
@@ -1603,7 +1609,7 @@ sequin@*:
   version "0.1.1"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/sequin/-/sequin-0.1.1.tgz#5c2d389d66a383734eaafbc45edeb2c1cb1be701"
 
-serve-favicon@~2.4.2:
+serve-favicon@^2.4.3:
   version "2.4.3"
   resolved "http://artifactory.int.dealer.com/artifactory/api/npm/all-npm/serve-favicon/-/serve-favicon-2.4.3.tgz#5986b17b0502642b641c21f818b1acce32025d23"
   dependencies:
